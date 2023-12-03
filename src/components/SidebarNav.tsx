@@ -1,5 +1,5 @@
 import logo from "../assets/logo.svg";
-import NavbarItems from "./NavbarItems";
+import NavbarItems from "./navlinks/NavbarItems";
 
 const SidebarNav = () => {
   return (

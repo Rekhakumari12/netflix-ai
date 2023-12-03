@@ -1,5 +1,7 @@
+import { ICON_TYPES } from "types/type";
+
 type propType = {
-  name: "profile" | "search" | "movies" | "home";
+  name: ICON_TYPES;
   color?: string;
   height?: string;
   width?: string;
