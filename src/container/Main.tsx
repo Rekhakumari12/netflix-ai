@@ -11,7 +11,7 @@ const Main = () => {
       navigate("/in/home");
   }, []);
   return (
-    <>
+    <div className="">
       <SidebarNav />
       <div className="flex">
         <iframe
@@ -22,7 +22,7 @@ const Main = () => {
         ></iframe>
         {/* <LandingPage /> */}
       </div>
-    </>
+    </div>
   );
 };
 
