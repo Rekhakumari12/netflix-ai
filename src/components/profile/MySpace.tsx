@@ -9,6 +9,7 @@ const MySpace = () => {
       <button className="bg-gradient-to-r from-blue-700 to-blue-900 text-[--brand-white] py-1 px-3 rounded">
         Login
       </button>
+      <img src="" />
       {createPortal(<Modal />, document.body)}
     </div>
   );
