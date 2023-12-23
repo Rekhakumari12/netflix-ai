@@ -1,4 +1,4 @@
-# Netflix AI
+# Video streaming app
 
 ## Tech stack
 
