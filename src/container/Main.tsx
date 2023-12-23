@@ -6,10 +6,12 @@ import { useLocation, useNavigate } from "react-router-dom";
 const Main = () => {
   const location = useLocation();
   const navigate = useNavigate();
+
   useEffect(() => {
     if (location.pathname === "/" || location.pathname === "/in")
       navigate("/in/home");
   }, [location.pathname, navigate]);
+
   return (
     <>
       <SidebarNav />
