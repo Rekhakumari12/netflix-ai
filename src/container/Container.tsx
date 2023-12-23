@@ -1,5 +1,3 @@
-import FeaturedMovies from "components/FeaturedMovies";
-import MoviesContainer from "components/MoviesContainer";
 import SidebarNav from "components/SidebarNav";
 import { useEffect } from "react";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
@@ -17,8 +15,6 @@ const Container = () => {
     <>
       <SidebarNav />
       <Outlet />
-      <FeaturedMovies />
-      <MoviesContainer />
     </>
   );
 };
