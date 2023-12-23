@@ -13,7 +13,7 @@ const Main = () => {
   return (
     <div className="">
       <SidebarNav />
-      <div className="flex">
+      <div className="flex -z-10">
         <iframe
           className="w-screen aspect-video hover:cursor-default"
           src="https://www.youtube-nocookie.com/embed/hXzcyx9V0xw?si=_1wAsRxjIz1PaIgr&controls=0&autoplay=1&mute=1&showinfo=0&rel=0"
