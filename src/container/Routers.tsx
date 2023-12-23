@@ -1,5 +1,5 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Main from "./Main";
+import Container from "./Container";
 import Home from "components/Home";
 import MySpace from "components/MySpace";
 import Explore from "components/Explore";
@@ -9,11 +9,11 @@ const Routers = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main />,
+      element: <Container />,
     },
     {
       path: "/in",
-      element: <Main />,
+      element: <Container />,
       children: [
         {
           path: "home",

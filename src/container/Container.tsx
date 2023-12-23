@@ -1,9 +1,10 @@
-import LandingPage from "components/LandingPage";
+import FeaturedMovies from "components/FeaturedMovies";
+import MoviesContainer from "components/MoviesContainer";
 import SidebarNav from "components/SidebarNav";
 import { useEffect } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
-const Main = () => {
+const Container = () => {
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -15,9 +16,11 @@ const Main = () => {
   return (
     <>
       <SidebarNav />
-      <LandingPage />
+      <Outlet />
+      <FeaturedMovies />
+      <MoviesContainer />
     </>
   );
 };
 
-export default Main;
+export default Container;
