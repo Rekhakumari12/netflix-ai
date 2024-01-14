@@ -8,7 +8,6 @@ type propType = {
   iconName: ICON_TYPES;
   label: string;
 };
-
 const NavLinkItem = (props: propType) => {
   const { path, iconName, label } = props;
   const [active, setActive] = useState(false);
