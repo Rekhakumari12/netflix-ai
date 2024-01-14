@@ -4,4 +4,8 @@
 :root {
   --brand-white: #e2e8f0;
   --brand-grey: #64748b;
+  --brand-blue: #16181f;
+  --text-white: #e1e6f0;
+  --text-grey: #8f98b2;
+  --text-dark-grey: #4b5165;
 }
