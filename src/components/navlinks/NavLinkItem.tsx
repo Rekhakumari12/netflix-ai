@@ -2,6 +2,7 @@ import Icon from "components/Icon";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { ICON_TYPES } from "types/type";
+
 type propType = {
   path: string;
   iconName: ICON_TYPES;
